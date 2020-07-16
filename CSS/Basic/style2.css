@@ -1,0 +1,24 @@
+h2 {
+	color: grey;
+}
+
+.boxmodel {
+	border: 5px solid red;
+	display: inline-block;
+	padding: 5px 20px;
+	margin: 20px 5px;
+	width: 30px;
+	height: 30px;
+	text-align: center
+}
+
+
+p {
+	font-size: 20px;
+}
+
+/**em: * times bigger than containing element font size (relative)
+*rem: * times bigger than the size of root font size(which is HTML) (not relative) */
+span {
+	font-size: 5rem;
+}

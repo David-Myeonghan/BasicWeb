@@ -1,0 +1,56 @@
+/* Top to bottom, from broad to specific*/
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(backgroundimage.jpg);
+	background-size: cover
+
+}
+
+h2, pz {
+	color: #AA8C39;
+	text-align: center;
+	border: 5px solid rgba(255, 176, 110, 0.5);
+	cursor: pointer;
+}
+p {
+	text-transform: uppercase;
+	line-height: 30px;
+	/*font-style: italic;*/
+	/*font-weight: bold;*/
+	font-size: 110%;
+	font-family: 'Pangolin', cursive;
+}
+
+img {
+	float: right;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+.webtext:last-child {
+	border: 5px solid green;
+}
+
+.active {
+	color:red;
+}
+
+#div1:first-child {
+	background-color: rgba(0, 0, 255, 0.1);
+}
+
+#div2 {
+	background-color: rgba(255, 0, 0, 0.1);
+}
+/* Cacading*/
